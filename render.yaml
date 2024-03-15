@@ -2,7 +2,7 @@ services:
   - type: web
     plan: free
     name: cloudtp3
-    runtime: node-js
+    runtime: nodejs
     branch: main
     repo: https://github.com/DVMkhpte/cloud_blueprint_1
     buildCommand: npm install && npm run build
