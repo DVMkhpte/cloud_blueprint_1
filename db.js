@@ -2,7 +2,7 @@ const { Sequelize } = require('sequelize')
 
 // database
 const sequelize = new Sequelize(
-  DATABASE_NANE, // Database name
+  DATABASE_NAME, // Database name
   DATABASE_USER, // User
   DATABASE_PASSWORD, // Password
   {
